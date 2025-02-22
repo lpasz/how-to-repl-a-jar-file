@@ -14,9 +14,11 @@ clj -M -m nrepl.cmdline --connect --port 7888
 Inside the REPL you can call functions that exist (tab auto completes stuff)
 ```clojure
 (ns core) ;; change to the core namespace
+
 (printed-every-second) ;; can call the function
-(defn printed-every-second []
-  "*") ;; redefine the function, you can see that the jar running is changed as well.
+
+;; redefine the function, you can see that the jar running is changed as well.
+(defn printed-every-second [] "*") 
 ```
 
 What is going on in this repo.
