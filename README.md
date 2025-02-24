@@ -11,7 +11,7 @@ java -jar ./target/app-standalone.jar
 clj -M -m nrepl.cmdline --connect --port 7888
 ```
 
-Inside the REPL you can call functions that exist (tab auto completes stuff)
+Inside the REPL you can call functions that exist (tab auto completes stuff sometimes)
 ```clojure
 (ns core) ;; change to the core namespace
 
